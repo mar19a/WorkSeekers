@@ -47,7 +47,7 @@ const Home = () => {
             }}
           />
 
-          <Popularjobs />
+        <Popularjobs />
           <Nearbyjobs />
         </View>
       </ScrollView>
