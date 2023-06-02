@@ -27,3 +27,12 @@ const Popularjobs = () => {
     setSelectedJob(item.job_id);
   };
 
+  return (
+    <View style={styles.container}>
+      <View style={styles.header}>
+        <Text style={styles.headerTitle}>Popular jobs</Text>
+        <TouchableOpacity>
+          <Text style={styles.headerBtn}>Show all</Text>
+        </TouchableOpacity>
+      </View>
+
