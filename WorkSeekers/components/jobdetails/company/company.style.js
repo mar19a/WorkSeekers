@@ -16,3 +16,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFF",
     borderRadius: SIZES.large,
   },
+  logoImage: {
+    width: "80%",
+    height: "80%",
+  },
