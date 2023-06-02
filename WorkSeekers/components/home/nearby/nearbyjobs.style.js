@@ -12,3 +12,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginTop: SIZES.small,
   },
+  headerTitle: {
+    fontSize: SIZES.large,
+    fontFamily: FONT.medium,
+    color: COLORS.primary,
+  },
