@@ -40,3 +40,8 @@ const styles = StyleSheet.create({
     color: COLORS.primary,
     fontFamily: FONT.medium,
   },
+  locationBox: {
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+  },
