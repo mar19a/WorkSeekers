@@ -16,14 +16,3 @@ const styles = StyleSheet.create({
     fontFamily: FONT.medium,
     color: COLORS.primary,
   },
-  headerBtn: {
-    fontSize: SIZES.medium,
-    fontFamily: FONT.medium,
-    color: COLORS.gray,
-  },
-  cardsContainer: {
-    marginTop: SIZES.medium,
-  },
-});
-
-export default styles;
