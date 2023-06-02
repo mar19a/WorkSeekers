@@ -23,3 +23,15 @@ const styles = StyleSheet.create({
   jobTitleBox: {
     marginTop: SIZES.small,
   },
+  jobTitle: {
+    fontSize: SIZES.large,
+    color: COLORS.primary,
+    fontFamily: FONT.bold,
+    textAlign: "center",
+  },
+  companyInfoBox: {
+    marginTop: SIZES.small / 2,
+    flexDirection: "row",
+    justifyContent: "center",
+    alignItems: "center",
+  },
