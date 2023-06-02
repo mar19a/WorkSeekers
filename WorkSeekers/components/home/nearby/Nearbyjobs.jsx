@@ -28,3 +28,7 @@ const Nearbyjobs = () => {
           <ActivityIndicator size='large' color={COLORS.primary} />
         ) : error ? (
           <Text>Something went wrong</Text>
+        ) : (
+          data?.map((job) => (
+            <NearbyJobCard
+              job={job}
