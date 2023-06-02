@@ -50,3 +50,12 @@ const styles = StyleSheet.create({
     height: 14,
     tintColor: COLORS.gray,
   },
+  locationName: {
+    fontSize: SIZES.medium - 2,
+    color: COLORS.gray,
+    fontFamily: FONT.regular,
+    marginLeft: 2,
+  },
+});
+
+export default styles;
