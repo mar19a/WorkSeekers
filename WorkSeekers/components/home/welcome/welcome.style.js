@@ -11,3 +11,9 @@ const styles = StyleSheet.create({
     fontSize: SIZES.large,
     color: COLORS.secondary,
   },
+  welcomeMessage: {
+    fontFamily: FONT.bold,
+    fontSize: SIZES.xLarge,
+    color: COLORS.primary,
+    marginTop: 2,
+  },
