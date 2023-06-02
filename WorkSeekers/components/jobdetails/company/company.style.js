@@ -20,3 +20,6 @@ const styles = StyleSheet.create({
     width: "80%",
     height: "80%",
   },
+  jobTitleBox: {
+    marginTop: SIZES.small,
+  },
