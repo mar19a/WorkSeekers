@@ -36,3 +36,6 @@ const Popularjobs = () => {
         </TouchableOpacity>
       </View>
 
+      <View style={styles.cardsContainer}>
+        {isLoading ? (
+          <ActivityIndicator size='large' color={COLORS.primary} />
