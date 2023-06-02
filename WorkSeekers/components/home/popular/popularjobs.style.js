@@ -14,3 +14,6 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: SIZES.large,
     fontFamily: FONT.medium,
+    color: COLORS.primary,
+  },
+
