@@ -33,3 +33,27 @@ const styles = StyleSheet.create({
   infoContainer: {
     marginTop: SIZES.large,
   },
+  jobName: (selectedJob, item) => ({
+    fontSize: SIZES.large,
+    fontFamily: FONT.medium,
+    color: selectedJob === item.job_id ? COLORS.white : COLORS.primary,
+  }),
+  infoWrapper: {
+    flexDirection: "row",
+    marginTop: 5,
+    justifyContent: "flex-start",
+    alignItems: "center",
+  },
+  publisher: (selectedJob, item) => ({
+    fontSize: SIZES.medium - 2,
+    fontFamily: FONT.regular,
+    color: selectedJob === item.job_id ? COLORS.white : COLORS.primary,
+  }),
+  location: {
+    fontSize: SIZES.medium - 2,
+    fontFamily: FONT.regular,
+    color: "#B3AEC6",
+  },
+});
+
+export default styles;
