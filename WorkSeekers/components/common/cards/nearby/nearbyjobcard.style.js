@@ -22,3 +22,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
+  logImage: {
+    width: "70%",
+    height: "70%",
+  },
+  textContainer: {
+    flex: 1,
+    marginHorizontal: SIZES.medium,
+  },
