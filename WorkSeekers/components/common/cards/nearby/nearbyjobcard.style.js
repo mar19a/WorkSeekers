@@ -14,3 +14,11 @@ const styles = StyleSheet.create({
     ...SHADOWS.medium,
     shadowColor: COLORS.white,
   },
+  logoContainer: {
+    width: 50,
+    height: 50,
+    backgroundColor: COLORS.white,
+    borderRadius: SIZES.medium,
+    justifyContent: "center",
+    alignItems: "center",
+  },
