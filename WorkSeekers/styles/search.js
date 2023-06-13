@@ -6,3 +6,8 @@ const styles = StyleSheet.create({
     container: {
         width: "100%",
     },
+    searchTitle: {
+        fontFamily: FONT.bold,
+        fontSize: SIZES.xLarge,
+        color: COLORS.primary,
+    },
