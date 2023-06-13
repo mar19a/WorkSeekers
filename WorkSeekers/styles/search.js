@@ -27,3 +27,11 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         gap: 10
     },
+    paginationButton: {
+        width: 30,
+        height: 30,
+        borderRadius: 5,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: COLORS.tertiary
+    },
