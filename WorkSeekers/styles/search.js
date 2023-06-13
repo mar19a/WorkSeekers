@@ -17,3 +17,13 @@ const styles = StyleSheet.create({
         fontSize: SIZES.small,
         color: COLORS.primary,
     },
+    loaderContainer: {
+        marginTop: SIZES.medium
+    },
+    footerContainer: {
+        marginTop: SIZES.small,
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'row',
+        gap: 10
+    },
