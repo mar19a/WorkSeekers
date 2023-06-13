@@ -45,3 +45,7 @@ const SHADOWS = {
     shadowOpacity: 0.25,
     shadowRadius: 5.84,
     elevation: 5,
+  },
+};
+
+export { COLORS, FONT, SIZES, SHADOWS };
