@@ -35,3 +35,24 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: COLORS.tertiary
     },
+    paginationImage: {
+        width: '60%',
+        height: '60%',
+        tintColor: COLORS.white
+    },
+    paginationTextBox: {
+        width: 30,
+        height: 30,
+        borderRadius: 2,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: COLORS.white
+    },
+    paginationText: {
+        fontFamily: FONT.bold,
+        fontSize: SIZES.medium,
+        color: COLORS.primary
+    }
+});
+
+export default styles;
