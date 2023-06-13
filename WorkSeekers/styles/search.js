@@ -11,3 +11,9 @@ const styles = StyleSheet.create({
         fontSize: SIZES.xLarge,
         color: COLORS.primary,
     },
+    noOfSearchedJobs: {
+        marginTop: 2,
+        fontFamily: FONT.medium,
+        fontSize: SIZES.small,
+        color: COLORS.primary,
+    },
