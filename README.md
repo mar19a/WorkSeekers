@@ -1,2 +1,2 @@
 # WorkSeekers
-API integration Job Listing IOS and WEB App
+API integration Job Listing IOS and WEB Application
