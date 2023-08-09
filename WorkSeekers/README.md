@@ -1,6 +1,6 @@
 # Expo Router Example
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation  .
+Use [`expo-router`](https://expo.github.io/router) to build native   .
 
 
 
