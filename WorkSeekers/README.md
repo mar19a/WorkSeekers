@@ -1,6 +1,6 @@
 # Expo Router Example
 
-Use [`expo-router`]    .
+Use [`expo-]    .
 
 
 
