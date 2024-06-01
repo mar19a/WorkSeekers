@@ -1,3 +1,4 @@
+import React from "react";
 import { View, Text } from "react-native";
 
 import styles from "./about.style";
@@ -11,6 +12,9 @@ const About = ({ info }) => {
         <Text style={styles.contextText}>{info}</Text>
       </View>
     </View>
+    // <View>
+    //   <Text>{info}</Text>
+    // </View>
   );
 };
 

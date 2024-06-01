@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     width: 50,
     height: 50,
     backgroundColor: selectedJob === item.job_id ? "#FFF" : COLORS.white,
-    borderRadius: SIZES.medium,
+    // borderRadius: SIZES.small,
     justifyContent: "center",
     alignItems: "center",
   }),
@@ -44,9 +44,9 @@ const styles = StyleSheet.create({
     justifyContent: "flex-start",
     alignItems: "center",
   },
-  publisher: (selectedJob, item) => ({
+  publisher: (selectedJob) => ({
     fontSize: SIZES.medium - 2,
-    fontFamily: FONT.regular,
+    fontFamily: FONT.bold,
     color: selectedJob === item.job_id ? COLORS.white : COLORS.primary,
   }),
   location: {

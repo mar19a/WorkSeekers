@@ -1,4 +1,3 @@
-import React from "react";
 import { useRouter } from "expo-router";
 import { View, Text, TouchableOpacity, ActivityIndicator } from "react-native";
 
@@ -10,9 +9,16 @@ import useFetch from "../../../hook/useFetch";
 const Nearbyjobs = () => {
   const router = useRouter();
   const { data, isLoading, error } = useFetch("search", {
-    query: "React Native developer",
+    query: "react native",
     num_pages: "1",
   });
+
+  // const [selectedJob, setSelectedJob] = useState();
+
+  const handleCardPress = (item) => {
+    router.push(`/job-details/${item.job_id}`);
+    setSelectedJob(item.job_id);
+  };
 
   return (
     <View style={styles.container}>
@@ -25,7 +31,7 @@ const Nearbyjobs = () => {
 
       <View style={styles.cardsContainer}>
         {isLoading ? (
-          <ActivityIndicator size='large' color={COLORS.primary} />
+          <ActivityIndicator size="large" color={COLORS.primary} />
         ) : error ? (
           <Text>Something went wrong</Text>
         ) : (
