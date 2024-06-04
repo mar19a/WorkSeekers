@@ -57,22 +57,39 @@ To get started with the WorkSeekers application, follow these steps:
 ## Project Structure
 
 src/
+
 ├── components/
+
 │   ├── Nearbyjobs/
+
 │   ├── Popularjobs/
+
 │   ├── ScreenHeaderBtn/
+
 │   ├── Welcome/
+
 │   └── ...
+
 ├── constants/
+
 ├── hooks/
+
 │   └── useFetch.js
+
 ├── screens/
+
 │   ├── Home.js
+
 │   ├── JobSearch.js
+
 │   └── ...
+
 ├── styles/
+
 │   └── search.js
+
 ├── App.js
+
 └── ...
 
 ## Contributing
