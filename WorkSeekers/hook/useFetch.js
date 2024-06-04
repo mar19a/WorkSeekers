@@ -16,6 +16,7 @@ const useFetch = (endpoint, query) => {
     params: { ...query },
   };
 
+  
   const fetchData = async () => {
     setIsLoading(true);
 
@@ -43,5 +44,6 @@ const useFetch = (endpoint, query) => {
 
   return { data, isLoading, error, refetch };
 };
+
 
 export default useFetch;

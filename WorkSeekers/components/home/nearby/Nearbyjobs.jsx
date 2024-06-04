@@ -13,7 +13,6 @@ const Nearbyjobs = () => {
     num_pages: "1",
   });
 
-  // const [selectedJob, setSelectedJob] = useState();
 
   const handleCardPress = (item) => {
     router.push(`/job-details/${item.job_id}`);

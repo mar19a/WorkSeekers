@@ -10,6 +10,7 @@ const COLORS = {
   lightWhite: "#FAFAFC",
 };
 
+
 const FONT = {
   regular: "DMRegular",
   medium: "DMMedium",
@@ -47,5 +48,6 @@ const SHADOWS = {
     elevation: 5,
   },
 };
+
 
 export { COLORS, FONT, SIZES, SHADOWS };

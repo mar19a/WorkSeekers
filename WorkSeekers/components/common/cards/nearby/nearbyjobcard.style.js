@@ -13,6 +13,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFF",
     ...SHADOWS.medium,
     shadowColor: COLORS.white,
+
   },
   logoContainer: {
     width: 50,
@@ -22,14 +23,17 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
+
   logImage: {
     width: "70%",
     height: "70%",
   },
+
   textContainer: {
     flex: 1,
     marginHorizontal: SIZES.medium,
   },
+  
   jobName: {
     fontSize: SIZES.medium,
     fontFamily: "DMBold",
