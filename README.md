@@ -4,7 +4,11 @@
 
 WorkSeekers is a job listing application built with React and Expo. It allows users to search for job opportunities, view popular and nearby jobs, and apply for them. The application uses the jsearch API from RapidAPI to fetch job data and integrates Firebase for user authentication and job saving features.
 
+<img width="1440" alt="Screenshot 2024-06-04 at 3 58 07 PM" src="https://github.com/mar19a/WorkSeekers/assets/84360137/4f7fde3f-6d36-40bb-849e-3ac4dc1d68ce">
+
 ## Features
+
+<img width="1440" alt="Screenshot 2024-06-04 at 3 58 35 PM" src="https://github.com/mar19a/WorkSeekers/assets/84360137/48cff124-a7a8-4695-9f83-3d8eb4758c0e"> <img width="1440" alt="Screenshot 2024-06-04 at 3 58 43 PM" src="https://github.com/mar19a/WorkSeekers/assets/84360137/ec7fd56a-5a61-40c5-afa1-d3668436b848"> <img width="1440" alt="Screenshot 2024-06-04 at 3 58 52 PM" src="https://github.com/mar19a/WorkSeekers/assets/84360137/6f08423d-d7a6-4be1-8ad4-1a25d7138b68"> <img width="1440" alt="Screenshot 2024-06-04 at 3 59 16 PM" src="https://github.com/mar19a/WorkSeekers/assets/84360137/5a654bb8-f9a7-4cd9-9380-b06536a5efd0"> <img width="1440" alt="Screenshot 2024-06-04 at 3 59 31 PM" src="https://github.com/mar19a/WorkSeekers/assets/84360137/58458b68-5b30-4c2d-a791-d5e7079fbf24">
 
 ### Home Screen
 - **Welcome Component**: Allows users to enter a search term to find job listings.
@@ -57,39 +61,22 @@ To get started with the WorkSeekers application, follow these steps:
 ## Project Structure
 
 src/
-
 ├── components/
-
 │   ├── Nearbyjobs/
-
 │   ├── Popularjobs/
-
 │   ├── ScreenHeaderBtn/
-
 │   ├── Welcome/
-
 │   └── ...
-
 ├── constants/
-
 ├── hooks/
-
 │   └── useFetch.js
-
 ├── screens/
-
 │   ├── Home.js
-
 │   ├── JobSearch.js
-
 │   └── ...
-
 ├── styles/
-
 │   └── search.js
-
 ├── App.js
-
 └── ...
 
 ## Contributing
